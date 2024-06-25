@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+.table-cont{
+  display: grid;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logo-cont{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.logo-cont img{
+  width: 100%;
+}
+
+table{
+  background: rgb(0, 0, 0,0.7);
+  border: 3px solid #3787d0;
+  border-radius: 1rem;
+}
+
+table tr:first-child{
+}
+
+table tr th{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+table tr th,
+table tr td{
+  padding: 1em;
+  border-bottom: 1px solid #3787d0;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+table tr td{
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+table tr:last-child th,
+table tr:last-child td{
+  border-bottom: none;
+}
+
+table tr th:last-child,
+table tr td:last-child{
+  border-right: none;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

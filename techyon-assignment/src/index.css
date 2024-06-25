@@ -1,0 +1,18 @@
+:root {
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: url(../src/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size : cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
