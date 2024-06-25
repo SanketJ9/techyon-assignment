@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Marcellus", serif;
 }
 
 .table-cont{
@@ -47,6 +47,23 @@ table tr td{
   font-size: 1rem;
   font-weight: 700;
   margin: 0;
+  position: relative;
+}
+
+table tr td::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 70%;
+  background: #3787d0;
+  border-radius: 3px;
+  right: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+
+table tr td:last-child::after{
+  display: none;
 }
 
 table tr:last-child th,
